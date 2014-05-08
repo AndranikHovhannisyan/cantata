@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f25b7b11-aa96-4236-8e15-a373e867a920" name="Default" comment="" />
+    <ignored path="Cantata.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Cantata" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="55" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="774">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/grid.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/MainController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="466" column="21" selection-start="16833" selection-end="16833" vertical-scroll-proportion="0.60854095" vertical-offset="7848" max-vertical-offset="8730">
+              <folding>
+                <marker date="1399499519683" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
+                <marker date="1399499519683" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
+                <marker date="1399499519683" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
+                <marker date="1399499519683" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
+                <marker date="1399499519683" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
+                <marker date="1399499519683" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
+                <marker date="1399499519683" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
+                <marker date="1399499519683" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
+                <marker date="1399499519683" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="5" selection-start="113" selection-end="113" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductType.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Form/ProductType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="19" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="882">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/Main/main.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="12" selection-start="445" selection-end="445" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="291" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.lock" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29610">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Temp.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Product.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Prixod.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Form/ProductType.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Entity/PrixodRasxod.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/EasyCSV/AbstractBase.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/EasyCSV/Reader.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/EasyCSV/Writer.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/grid.html.twig" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Entity/InputInfo.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Entity/ProductQuantity.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/app/cache/dev/templates.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/Main/newProduct.html.twig" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Controller/MainController.php" />
+        <option value="$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/Main/main.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="50" />
+    <option name="y" value="24" />
+    <option name="width" value="1310" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyCSV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cantata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../law" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f25b7b11-aa96-4236-8e15-a373e867a920" name="Default" comment="" />
+      <created>1398291865513</created>
+      <updated>1398291865513</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="50" y="24" width="1310" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24885496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="550" column="0" selection-start="19574" selection-end="19574" vertical-scroll-proportion="0.0" vertical-offset="9584" max-vertical-offset="10152">
+          <folding>
+            <marker date="1399499519683" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/Main/main.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="15" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="29610">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/PrixodRasxod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="7" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="2700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="426" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/ProductQuantity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="3240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Temp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="648">
+          <folding>
+            <marker date="1399499519683" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/PrixodRasxod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="1890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="426" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/ProductQuantity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="21" selection-start="515" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="3240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Temp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="7" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="42" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="684">
+          <folding>
+            <marker date="1399499519683" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="5" selection-start="1962" selection-end="2173" vertical-scroll-proportion="0.0" vertical-offset="2095" max-vertical-offset="2682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/ProductQuantity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="6" selection-start="2072" selection-end="2072" vertical-scroll-proportion="0.0" vertical-offset="2322" max-vertical-offset="3240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Temp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="24" selection-start="331" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="16" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="2682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/ProductQuantity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="6" selection-start="2072" selection-end="2072" vertical-scroll-proportion="0.0" vertical-offset="1548" max-vertical-offset="3240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Temp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="3" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="1015" max-vertical-offset="1692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="1" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/ProductQuantity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="56" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="1" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/ProductQuantity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="426" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/EasyCSV/AbstractBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="7" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/EasyCSV/Writer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/EasyCSV/Reader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="70" selection-start="664" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="43" selection-start="787" selection-end="787" vertical-scroll-proportion="-0.0" vertical-offset="378" max-vertical-offset="1062" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="55" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/PrixodRasxod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.48042706" vertical-offset="108" max-vertical-offset="3240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/ProductQuantity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0" vertical-offset="2912" max-vertical-offset="3744">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.12224109" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/grid.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Entity/Temp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="27" selection-start="925" selection-end="932" vertical-scroll-proportion="-38.0" vertical-offset="54" max-vertical-offset="1692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="28548">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Form/ProductType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="291" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/Main/main.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="12" selection-start="445" selection-end="445" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="113" selection-end="113" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="466" column="21" selection-start="16833" selection-end="16833" vertical-scroll-proportion="0.60854095" vertical-offset="7848" max-vertical-offset="8730">
+          <folding>
+            <marker date="1399499519683" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399499519683" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

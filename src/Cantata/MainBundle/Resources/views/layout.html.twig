@@ -1,0 +1,12 @@
+<html>
+{% if notification is defined %}
+    {{ notification }}
+    <br>
+{% endif %}
+
+<a href="{{ path('addProdFromFile') }}">Մուտքագրել ապրանքների անվանումները և գները ֆայլից</a>
+<br>
+<a href="{{ path('addProductQantityInOut') }}">Մուտքագրել ապրանքների մնացորդները կամ մուտք/ելքերը</a>
+<br>
+<a href="{{ path('getResponse') }}">Ստանալ ամսեկան հաշվետվություն</a>
+</html>

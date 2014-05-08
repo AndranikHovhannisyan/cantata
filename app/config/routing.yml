@@ -1,0 +1,10 @@
+post:
+    resource: "@CantataMainBundle/Controller/"
+    type:     annotation
+
+cantata_main:
+    resource: "@CantataMainBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+

@@ -1,0 +1,31 @@
+{% if form is defined %}
+    {{ form(form) }}
+    <br>
+{% endif %}
+{% if table is defined %}
+    <table border='1' style='width:300px'>
+        <tr>
+            <td>Անվանումը</td>
+            <td>Ապրանքի քանակը</td>
+            <td>Ապրանքի մուտք/ելքը</td>
+            <td>Ապրանքի մնացորդը</td>
+            <td>Վաճառքը</td>
+            <td>Վաճառքի գինը</td>
+            <td>Ինքնարժեքը</td>
+            <td>Եկամուտը</td>
+        </tr>
+    {% for row in table %}
+        <tr>
+        {% for column in row %}
+            <td>
+                {{ column }}
+            </td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+    </table>
+    <br>
+    <a href="{{ path('getResponse') }}">Վերադառնալ նախորդ էջ</a>
+    <br>
+{% endif %}
+<a href="{{ path("homepage") }}">Վերադառնալ գլխավոր էջ</a>
