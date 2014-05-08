@@ -25,6 +25,26 @@
     {% endfor %}
     </table>
     <br>
+{% endif %}
+{% if result is defined %}
+    <table border='1' style='width:300px'>
+        <tr>
+            <td></td>
+            <td>Վաճառքի գներով</td>
+            <td>Ինքնարժեքով</td>
+            <td>Շահույթը</td>
+        </tr>
+        {% for rows in result %}
+            <tr>
+            {% for column in rows %}
+                <td>
+                    {{ column }}
+                </td>
+            {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+    <br>
     <a href="{{ path('getResponse') }}">Վերադառնալ նախորդ էջ</a>
     <br>
 {% endif %}

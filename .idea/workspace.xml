@@ -41,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="466" column="21" selection-start="16833" selection-end="16833" vertical-scroll-proportion="0.60854095" vertical-offset="7848" max-vertical-offset="8730">
+            <state line="467" column="0" selection-start="17003" selection-end="17003" vertical-scroll-proportion="-10.814815" vertical-offset="7916" max-vertical-offset="8478">
               <folding>
-                <marker date="1399499519683" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
-                <marker date="1399499519683" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
-                <marker date="1399499519683" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
-                <marker date="1399499519683" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
-                <marker date="1399499519683" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
-                <marker date="1399499519683" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
-                <marker date="1399499519683" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
-                <marker date="1399499519683" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
-                <marker date="1399499519683" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
+                <marker date="1399581224416" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
+                <marker date="1399581224416" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
+                <marker date="1399581224416" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
+                <marker date="1399581224416" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
+                <marker date="1399581224416" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
+                <marker date="1399581224416" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
+                <marker date="1399581224416" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
+                <marker date="1399581224416" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
+                <marker date="1399581224416" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
               </folding>
             </state>
           </provider>
@@ -63,7 +63,7 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="5" selection-start="113" selection-end="113" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="342">
+            <state line="6" column="5" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="342">
               <folding />
             </state>
           </provider>
@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html.twig" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.html.twig" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/Main/main.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="12" selection-start="445" selection-end="445" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="666">
+            <state line="48" column="8" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.7758007" vertical-offset="428" max-vertical-offset="1026">
               <folding />
             </state>
           </provider>
@@ -98,13 +98,13 @@
       </file>
       <file leaf-file-name="composer.lock" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.lock">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29610">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -539,15 +539,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="550" column="0" selection-start="19574" selection-end="19574" vertical-scroll-proportion="0.0" vertical-offset="9584" max-vertical-offset="10152">
           <folding>
-            <marker date="1399499519683" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
           </folding>
         </state>
       </provider>
@@ -567,13 +567,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="29610">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/security.yml">
@@ -623,15 +623,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="648">
           <folding>
-            <marker date="1399499519683" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
           </folding>
         </state>
       </provider>
@@ -673,15 +673,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="42" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="684">
           <folding>
-            <marker date="1399499519683" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
           </folding>
         </state>
       </provider>
@@ -858,13 +858,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="28548">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Form/ProductType.php">
@@ -881,34 +881,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/Main/main.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="445" selection-end="445" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="113" selection-end="113" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="342">
+        <state line="6" column="5" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="342">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Controller/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="466" column="21" selection-start="16833" selection-end="16833" vertical-scroll-proportion="0.60854095" vertical-offset="7848" max-vertical-offset="8730">
+        <state line="467" column="0" selection-start="17003" selection-end="17003" vertical-scroll-proportion="-10.814815" vertical-offset="7916" max-vertical-offset="8478">
           <folding>
-            <marker date="1399499519683" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
-            <marker date="1399499519683" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="2753:2850" placeholder="SELECT produ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="4359:4401" placeholder="SELECT tmp F..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="6170:6262" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="6422:6840" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="7043:7473" placeholder="SELECT prod...CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="10536:10611" placeholder="SELECT prod ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13022:13302" placeholder="SELECT prodQ..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13408:13783" placeholder="SELECT prixo..CantataMainBundle..." />
+            <marker date="1399581224416" expanded="true" signature="13889:14183" placeholder="SELECT prodQ..CantataMainBundle..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cantata/MainBundle/Resources/views/Main/main.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="8" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.7758007" vertical-offset="428" max-vertical-offset="1026">
+          <folding />
         </state>
       </provider>
     </entry>
