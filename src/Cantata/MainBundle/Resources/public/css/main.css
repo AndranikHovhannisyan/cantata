@@ -1,0 +1,53 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top left, #FFFFFF 0%, #E8E3E3 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top left, #FFFFFF 0%, #E8E3E3 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top left, #FFFFFF 0%, #E8E3E3 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #E8E3E3));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top left, #FFFFFF 0%, #E8E3E3 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom right, #FFFFFF 0%, #E8E3E3 100%);
+}
+#form {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #eee;
+    -ms-box-shadow: 0 0 4px #aaa;
+    -o-box-shadow: 0 0 4px #aaa;
+    -moz-box-shadow: 0 0 4px #aaa;
+    -webkit-box-shadow: 0 0 4px #aaa;
+    box-shadow: 0 0 2px #aaa;
+    color: #444;
+}
+#form>div {
+    margin-top: 5px;
+}
+#form>div button[type="submit"] {
+    -ms-box-shadow: 0 0 2px #ccc;
+    -o-box-shadow: 0 0 2px #ccc;
+    -moz-box-shadow: 0 0 2px #ccc;
+    -webkit-box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 2px #ccc;
+}
+li {
+    list-style: none;
+}
+table {
+    box-shadow: 0 0 4px #bbb;
+    width: 960px !important;
+    margin: auto;
+}

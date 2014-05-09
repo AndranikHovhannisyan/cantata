@@ -1,9 +1,13 @@
+<link href="{{ asset("bundles/cantatamain/css/bootstrap.min.css") }}" rel="stylesheet"/>
+<link href="{{ asset("bundles/cantatamain/css/main.css") }}" rel="stylesheet"/>
+<script src="{{ asset("bundles/cantatamain/js/jquery.js") }}"></script>
+<script src="{{ asset("bundles/cantatamain/js/bootstrap.min.js") }}"></script>
 {% if form is defined %}
     {{ form(form) }}
     <br>
 {% endif %}
 {% if table is defined %}
-    <table border='1' style='width:300px'>
+    <table class="table">
         <tr>
             <td>Անվանումը</td>
             <td>Ապրանքի քանակը</td>
@@ -27,7 +31,7 @@
     <br>
 {% endif %}
 {% if result is defined %}
-    <table border='1' style='width:300px'>
+    <table class="table">
         <tr>
             <td></td>
             <td>Վաճառքի գներով</td>
