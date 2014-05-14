@@ -17,7 +17,8 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Cantata\MainBundle\CantataMainBundle(),
-            new APY\DataGridBundle\APYDataGridBundle(),
+            //new APY\DataGridBundle\APYDataGridBundle(),
+            //"apy/datagrid-bundle": "dev-master"
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
