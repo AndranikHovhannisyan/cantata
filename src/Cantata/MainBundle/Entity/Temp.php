@@ -31,6 +31,31 @@ class Temp
     protected $quantity;
 
     /**
+     * @ORM\Column(name="year", type="integer")
+     */
+    protected $year;
+
+    /**
+     * @ORM\Column(name="mont", type="integer")
+     */
+    protected $month;
+
+    /**
+     * @ORM\Column(name="shop", type="string", length=15)
+     */
+    protected $shop;
+
+    /**
+     * @ORM\Column(name="is_prixod", type="string", length=20)
+     */
+    protected $isPrixod;
+
+    /**
+     * @ORM\Column(name="description", type="string", length=50)
+     */
+    protected $description;
+
+    /**
      * Get id
      *
      * @return integer 
@@ -84,5 +109,120 @@ class Temp
     public function getQuantity()
     {
         return $this->quantity;
+    }
+
+    /**
+     * Set year
+     *
+     * @param integer $year
+     * @return Temp
+     */
+    public function setYear($year)
+    {
+        $this->year = $year;
+
+        return $this;
+    }
+
+    /**
+     * Get year
+     *
+     * @return integer 
+     */
+    public function getYear()
+    {
+        return $this->year;
+    }
+
+    /**
+     * Set month
+     *
+     * @param integer $month
+     * @return Temp
+     */
+    public function setMonth($month)
+    {
+        $this->month = $month;
+
+        return $this;
+    }
+
+    /**
+     * Get month
+     *
+     * @return integer 
+     */
+    public function getMonth()
+    {
+        return $this->month;
+    }
+
+    /**
+     * Set shop
+     *
+     * @param string $shop
+     * @return Temp
+     */
+    public function setShop($shop)
+    {
+        $this->shop = $shop;
+
+        return $this;
+    }
+
+    /**
+     * Get shop
+     *
+     * @return string 
+     */
+    public function getShop()
+    {
+        return $this->shop;
+    }
+
+    /**
+     * Set isPrixod
+     *
+     * @param string $isPrixod
+     * @return Temp
+     */
+    public function setIsPrixod($isPrixod)
+    {
+        $this->isPrixod = $isPrixod;
+
+        return $this;
+    }
+
+    /**
+     * Get isPrixod
+     *
+     * @return string 
+     */
+    public function getIsPrixod()
+    {
+        return $this->isPrixod;
+    }
+
+    /**
+     * Set description
+     *
+     * @param string $description
+     * @return Temp
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
+    /**
+     * Get description
+     *
+     * @return string 
+     */
+    public function getDescription()
+    {
+        return $this->description;
     }
 }
