@@ -1,1 +1,1 @@
-angular.module("Cantata",["ngResource"])
+angular.module("Cantata",["ngResource","prefix"])
