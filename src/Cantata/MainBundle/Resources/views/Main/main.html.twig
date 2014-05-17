@@ -1,60 +1,51 @@
-<link href="{{ asset("bundles/cantatamain/css/bootstrap.min.css") }}" rel="stylesheet"/>
-<link href="{{ asset("bundles/cantatamain/css/main.css") }}" rel="stylesheet"/>
-<link href="{{ asset("bundles/cantatamain/css/styles.css") }}" rel="stylesheet"/>
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+{% extends 'CantataMainBundle::layout.html.twig' %}
 
-<script src="{{ asset("bundles/cantatamain/js/vendor/jquery.js") }}"></script>
-<script src="{{ asset("bundles/cantatamain/js/vendor/bootstrap.min.js") }}"></script>
-<script src="{{ asset("bundles/cantatamain/js/vendor/angular.min.js") }}"></script>
-<script src="{{ asset("bundles/cantatamain/js/vendor/angular-resource.min.js") }}"></script>
-{% if form is defined %}
-    {{ form(form) }}
-    <br>
-{% endif %}
-{% if table is defined %}
-    <table class="table">
-        <tr>
-            <td>Անվանումը</td>
-            <td>Ապրանքի քանակը</td>
-            <td>Ապրանքի մուտք/ելքը</td>
-            <td>Ապրանքի մնացորդը</td>
-            <td>Վաճառքը</td>
-            <td>Վաճառքի գինը</td>
-            <td>Ինքնարժեքը</td>
-            <td>Եկամուտը</td>
-        </tr>
-    {% for row in table %}
-        <tr>
-        {% for column in row %}
-            <td>
-                {{ column }}
-            </td>
-        {% endfor %}
-        </tr>
-    {% endfor %}
-    </table>
-    <br>
-{% endif %}
-{% if result is defined %}
-    <table class="table">
-        <tr>
-            <td></td>
-            <td>Վաճառքի գներով</td>
-            <td>Ինքնարժեքով</td>
-            <td>Շահույթը</td>
-        </tr>
-        {% for rows in result %}
+{% block body %}
+    {% if form is defined %}
+        {{ form(form) }}
+        <br>
+    {% endif %}
+    {% if table is defined %}
+        <table class="table">
             <tr>
-            {% for column in rows %}
+                <td>Անվանումը</td>
+                <td>Ապրանքի քանակը</td>
+                <td>Ապրանքի մուտք/ելքը</td>
+                <td>Ապրանքի մնացորդը</td>
+                <td>Վաճառքը</td>
+                <td>Վաճառքի գինը</td>
+                <td>Ինքնարժեքը</td>
+                <td>Եկամուտը</td>
+            </tr>
+        {% for row in table %}
+            <tr>
+            {% for column in row %}
                 <td>
                     {{ column }}
                 </td>
             {% endfor %}
             </tr>
         {% endfor %}
-    </table>
-    <br>
-    <a href="{{ path('getResponse') }}">Վերադառնալ նախորդ էջ</a>
-    <br>
-{% endif %}
-<a href="{{ path("homepage") }}">Վերադառնալ գլխավոր էջ</a>
+        </table>
+        <br>
+    {% endif %}
+    {% if result is defined %}
+        <table class="table">
+            <tr>
+                <td></td>
+                <td>Վաճառքի գներով</td>
+                <td>Ինքնարժեքով</td>
+                <td>Շահույթը</td>
+            </tr>
+            {% for rows in result %}
+                <tr>
+                {% for column in rows %}
+                    <td>
+                        {{ column }}
+                    </td>
+                {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+{% endblock %}
