@@ -3,6 +3,9 @@
     <head>
         <link href="{{ asset("bundles/cantatamain/css/bootstrap.min.css") }}" rel="stylesheet"/>
         <link href="{{ asset("bundles/cantatamain/css/main.css") }}" rel="stylesheet"/>
+        <link href="{{ asset("bundles/cantatamain/css/styles.css") }}" rel="stylesheet"/>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+        
         <script src="{{ asset("bundles/cantatamain/js/vendor/jquery.js") }}"></script>
         <script src="{{ asset("bundles/cantatamain/js/vendor/bootstrap.min.js") }}"></script>
         <script src="{{ asset("bundles/cantatamain/js/vendor/angular.min.js") }}"></script>
@@ -14,17 +17,14 @@
             <br>
         {% endif %}
         <div class="content">
-            <ul>
-                <li>
-                    <a href="{{ path('addProdFromFile') }}">Մուտքագրել ապրանքների անվանումները և գները ֆայլից</a>
-                </li>
-                <li>
-                    <a href="{{ path('addProductQuantityInOut') }}">Մուտքագրել ապրանքների մնացորդները կամ մուտք/ելքերը</a>
-                </li>
-                <li>
-                    <a href="{{ path('getResponse') }}">Ստանալ ամսեկան հաշվետվություն</a>
-                </li>
-            </ul>
-        <div>
+            <nav>
+                <ul class="fancyNav">
+                    <li id="home"><a href="/" class="homeIcon">Home</a></li>
+                    <li id="news"><a href="{{ path('addProductQuantityInOut') }}">մուտք/ելքերը</a></li>
+                    <li id="about"><a href="{{ path('getResponse') }}">հաշվետվություն</a></li>
+                    <li id="services"><a href="{{ path('addProdFromFile') }}">Մուտքագրել ֆայլից</a></li>
+                </ul>
+            </nav>
+        </div>
     </body>
 </html>

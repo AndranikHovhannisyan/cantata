@@ -25,7 +25,8 @@ html,body {
     margin: auto;
     margin-top: 50px;
     padding: 10px;
-    background-color: #eee;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
     -ms-box-shadow: 0 0 4px #aaa;
     -o-box-shadow: 0 0 4px #aaa;
     -moz-box-shadow: 0 0 4px #aaa;
@@ -33,7 +34,10 @@ html,body {
     box-shadow: 0 0 2px #aaa;
     color: #444;
 }
-#form>div {
+#form label {
+    color: white;
+}
+#form > div {
     margin-top: 5px;
 }
 #form>div button[type="submit"] {
@@ -50,4 +54,12 @@ table {
     box-shadow: 0 0 4px #bbb;
     width: 960px !important;
     margin: auto;
+    color: white;
+}
+nav {
+    width: 770px !important;
+    margin: 10px auto !important;
+}
+.fancyNav li a {
+    font-size: 14px !important;
 }
