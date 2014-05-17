@@ -29,13 +29,12 @@ class RestTempController extends FOSRestController
     /**
      * @Rest\View
      */
-    public function postChangeAction()
+    public function postChangeAction() //Փոփոխությունները հաստատաելու դեպքում
     {
         $obj = json_decode($this->getRequest()->getContent());
 
         if (isset($obj->ids))
         {
-
             $str = "(";
             foreach($obj->ids as $key => $value) {
                 if ($value) {
@@ -93,8 +92,40 @@ class RestTempController extends FOSRestController
                         $em->persist($productQuantity);
                     }
                 }
-
+                $em->remove($tmp);
             }
+            $em->flush();
+        }
+    }
+
+    /**
+     * @Rest\View
+     */
+    public function postremoveAction() //Փոփոխությունները չեղյալ հայտարարելու դեպքում
+    {
+        $obj = json_decode($this->getRequest()->getContent());
+
+        if (isset($obj->ids))
+        {
+
+            $str = "(";
+            foreach($obj->ids as $key => $value) {
+                if ($value) {
+                    $str .= $key . ", ";
+                }
+            }
+            $str = substr($str, 0, -2) . ")";
+
+            $em = $this->getDoctrine()->getManager();
+            $temps = $em->createQuery(
+                "SELECT tmp FROM CantataMainBundle:Temp tmp WHERE tmp.id IN $str")
+                ->getResult();
+
+            foreach($temps as $tmp)
+            {
+                $em->remove($tmp);
+            }
+            $em->flush();
         }
     }
 }
