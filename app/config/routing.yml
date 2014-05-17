@@ -1,10 +1,13 @@
+cantata_temp:
+    type:     rest
+    resource: Cantata\MainBundle\Controller\RestTempController
+
 post:
-    resource: "@CantataMainBundle/Controller/"
+    resource: "@CantataMainBundle/Controller/MainController.php"
     type:     annotation
 
 cantata_main:
     resource: "@CantataMainBundle/Resources/config/routing.yml"
     prefix:   /
-
 
 

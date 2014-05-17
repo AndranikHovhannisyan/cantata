@@ -56,6 +56,11 @@ class Temp
     protected $description;
 
     /**
+     * @ORM\Column(name="type", type="integer")
+     */
+    protected $type;
+    
+    /**
      * Get id
      *
      * @return integer 
@@ -224,5 +229,28 @@ class Temp
     public function getDescription()
     {
         return $this->description;
+    }
+
+    /**
+     * Set type
+     *
+     * @param integer $type
+     * @return Temp
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+
+        return $this;
+    }
+
+    /**
+     * Get type
+     *
+     * @return integer 
+     */
+    public function getType()
+    {
+        return $this->type;
     }
 }
