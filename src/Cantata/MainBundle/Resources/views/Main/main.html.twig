@@ -2,7 +2,7 @@
 
 {% block body %}
     {% if form is defined %}
-        {{ form(form) }}
+        {{ form(form, {'id': 'form'}) }}
         <br>
     {% endif %}
     {% if table is defined %}
