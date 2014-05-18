@@ -32,18 +32,19 @@ class RestTempController extends FOSRestController
     public function postChangeAction() //Փոփոխությունները հաստատաելու դեպքում
     {
         $obj = json_decode($this->getRequest()->getContent());
+        $em = $this->getDoctrine()->getManager();
 
-        if (isset($obj->ids))
+        if (!isset($obj->id))
         {
             $str = "(";
-            foreach($obj->ids as $key => $value) {
+            foreach($obj as $key => $value) {
                 if ($value) {
                     $str .= $key . ", ";
                 }
             }
             $str = substr($str, 0, -2) . ")";
 
-            $em = $this->getDoctrine()->getManager();
+
             $temps = $em->createQuery(
                 "SELECT tmp FROM CantataMainBundle:Temp tmp WHERE tmp.id IN $str")
                 ->getResult();
@@ -64,44 +65,36 @@ class RestTempController extends FOSRestController
 
                     $ProdQuantity->setQuantity($tmp->getQuantity());
                 }
-                else //type == 0 => Այս կոդով ապրանք բազայում չկա
-                {
-                    foreach($obj->prods as $prod1)
-                    {
-                        if ($prod1->code == $tmp->getCode())
-                        {
-                            $prod = $prod1;
-                            break;
-                        }
-                    }
-                    if (isset($prod))
-                    {
-                        $product = new Product();
-                        $product->setCode($prod->code);
-                        $product->setName($prod->name);
-                        $product->setCost($prod->cost);
-                        $product->setPrimeCost($prod->primeCost);
-                        $em->persist($product);
-                        $productQuantity = new ProductQuantity();
-                        $productQuantity->setProd($product);
-                        $productQuantity->setType($tmp->isPrixod());
-                        $productQuantity->setQuantity($tmp->getQuantity());
-                        $productQuantity->setYear($tmp->getYear());
-                        $productQuantity->setMonth($tmp->getMonth());
-                        $productQuantity->setShop($tmp->getShop());
-                        $em->persist($productQuantity);
-                    }
-                }
                 $em->remove($tmp);
             }
-            $em->flush();
         }
+        else //type == 0 => Այս կոդով ապրանք բազայում չկա
+        {
+            $tmp = $em->createQuery("SELECT tmp FROM CantataMainBundle:Temp tmp WHERE tmp.id = {$obj->id}");
+
+            $product = new Product();
+            $product->setCode($tmp->getCode());
+            $product->setName($obj->name);
+            $product->setCost($obj->cost);
+            $product->setPrimeCost($obj->primeCost);
+            $em->persist($product);
+            $productQuantity = new ProductQuantity();
+            $productQuantity->setProd($product);
+            $productQuantity->setType($tmp->isPrixod());
+            $productQuantity->setQuantity($tmp->getQuantity());
+            $productQuantity->setYear($tmp->getYear());
+            $productQuantity->setMonth($tmp->getMonth());
+            $productQuantity->setShop($tmp->getShop());
+            $em->persist($productQuantity);
+        }
+
+        $em->flush();
     }
 
     /**
      * @Rest\View
      */
-    public function postremoveAction() //Փոփոխությունները չեղյալ հայտարարելու դեպքում
+    public function postRemoveAction() //Փոփոխությունները չեղյալ հայտարարելու դեպքում
     {
         $obj = json_decode($this->getRequest()->getContent());
 
