@@ -14,7 +14,7 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
         $log.info(item);
         var ar = new Array();
         ar[item.id] = true;
-        api.rm({param: "postremove"},ar,function(d){
+        api.rm({param: "removes"},ar,function(d){
            $log.info(d); 
         });
     };
@@ -33,7 +33,7 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
         }
     };
     $scope.rmChosen = function(){
-        api.rm({param: "postremove"},$scope.checkboxes,function(d){
+        api.rm({param: "removes"},$scope.checkboxes,function(d){
            $log.info(d); 
         });
     };
