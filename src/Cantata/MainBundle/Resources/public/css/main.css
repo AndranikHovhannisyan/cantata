@@ -76,3 +76,34 @@ nav {
 .table2 th {
     background-color: rgba(100,100,100,0.7)
 }
+.modal {
+    overflow-y: auto;
+}
+.mod-cont {
+    width: 200px;
+    margin: auto;
+    color: black;
+}
+.mod-cont .ok-icon {
+    font-size: 40px;
+    color: green;
+}
+.mod-cont .new-icon {
+    font-size: 40px;
+    color: orange;
+    margin-left: 90px;
+}
+.modal-footer {
+    margin-top: 0px;
+}
+.mod-cont>input {
+    margin-bottom: 4px; 
+}
+.mod-cont>label {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -80px;
+}
+.opt {
+    float: right;
+}

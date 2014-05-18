@@ -1,0 +1,26 @@
+<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" ng-click="$hide()">&times;</button>
+            <h4 class="modal-title">question</h4>
+        </div>
+        <div class="modal-body">
+            <div class="mod-cont" ng-init="newO.code = item.code">
+                <label>code</label>
+                <input type="text" ng-model="newO.code" class="form-control" readonly/>
+                <label>name</label>
+                <input type="text" ng-model="newO.name" class="form-control" placeholder="name"/>
+                <label>cost</label>
+                <input type="text" ng-model="newO.cost" class="form-control" placeholder="cost"/>
+                <label>prime cost</label>    
+                <input type="text" ng-model="newO.p_cost" class="form-control" placeholder="prime cost"/>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" ng-click="$hide()">Close</button>
+            <button type="button" class="btn btn-primary" ng-click="$hide();change(newO,0)">Save changes</button>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,1 @@
-angular.module("Cantata",["ngResource","prefix"])
+angular.module("Cantata",["ngResource","prefix",'mgcrea.ngStrap.modal',"ngAnimate"])

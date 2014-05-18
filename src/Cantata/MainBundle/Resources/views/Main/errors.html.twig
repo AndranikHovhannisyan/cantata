@@ -3,10 +3,27 @@
 {% block errors %}
     {% verbatim %}
     <div ng-app="Cantata" ng-controller="MainController">
+        <div class="opt">
+            <a href="" 
+                class="glyphicon glyphicon-certificate rmAll"
+                data-animation="am-fade-and-slide-top" 
+                data-template="/bundles/cantatamain/htmls/reAll.html"
+                title="removeAll"
+                bs-modal>
+            </a>
+            <a href="" 
+                class="glyphicon glyphicon-remove rmAll"
+                data-animation="am-fade-and-slide-top" 
+                data-template="/bundles/cantatamain/htmls/rmAll.html"
+                title="removeAll"
+                bs-modal>
+            </a>
+        </div>
         <table class="table table-striped table2">
             <thead>
                 <tr>
-                    <th></th>
+                    <th><input type="checkbox" ng-model="checkAll"/></th>
+                    <th>test</th>
                     <th>test</th>
                     <th>test</th>
                     <th>test</th>
@@ -27,7 +44,33 @@
                     <td>{{ item.quantity }}</td>
                     <td>{{ item.shop }}</td>
                     <td>{{ item.year }}</td>
-                    <td><a href="" class="glyphicon glyphicon-certificate"></a></td>
+                    <td>
+                        <a href=""
+                            ng-if="item.type == 1"
+                            data-animation="am-fade-and-slide-top" 
+                            data-template="/bundles/cantatamain/htmls/modal1.html"
+                            class="glyphicon glyphicon-certificate"
+                            title="change"
+                            bs-modal>
+                        </a>
+                        <a href=""
+                            ng-if="item.type == 0"
+                            data-animation="am-fade-and-slide-top" 
+                            data-template="/bundles/cantatamain/htmls/modal2.html"
+                            class="glyphicon glyphicon-certificate"
+                            title="change"
+                            bs-modal>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="" 
+                           class="glyphicon glyphicon-remove"
+                           data-animation="am-fade-and-slide-top" 
+                           data-template="/bundles/cantatamain/htmls/rm.html"
+                           title="remove"
+                            bs-modal>
+                        </a>
+                    </td>
                 </tr>
             </tbody>
         </table>
