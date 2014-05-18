@@ -5,17 +5,21 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
        change: {method: "POST",isArray: false}
     });
     $scope.checkboxes = new Array();
+    $scope.getList = true;
     
-    api.getList({param: "temp"},function(d){
-       $log.info(d);
-       $scope.items = d;
-    });
+    $scope.$watch("getList",function(d){
+        api.getList({param: "temp"},function(d){
+            $log.info(d);
+            $scope.items = d;
+        });
+    },false);
     $scope.rm = function(item){
         $log.info(item);
         var ar = new Array();
         ar[item.id] = true;
         api.rm({param: "removes"},ar,function(d){
-           $log.info(d); 
+           $log.info(d);
+           $scope.getList = !$scope.getList;
         });
     };
     $scope.change = function(item,type){
@@ -24,17 +28,20 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
             ar[item.id] = true;
             api.change({param: "changes"},ar,function(d){
                $log.info(d); 
+               $scope.getList = !$scope.getList;
             });
         }
         if(type === 0){
             api.change({param: "changes"},item,function(d){
                 $log.info(d);
+                $scope.getList = !$scope.getList;
             });
         }
     };
     $scope.rmChosen = function(){
         api.rm({param: "removes"},$scope.checkboxes,function(d){
-           $log.info(d); 
+           $log.info(d);
+           $scope.getList = !$scope.getList;
         });
     };
     $scope.reChosen = function(){
@@ -49,6 +56,7 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
         $log.info(ar);
         api.change({param: "changes"},ar,function(d){
             $log.info(d);
+            $scope.getList = !$scope.getList;
         });
     };
     $scope.$watch('checkAll',function(d){
