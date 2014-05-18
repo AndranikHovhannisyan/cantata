@@ -8,18 +8,18 @@ use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
 class ProductType extends AbstractType
 {
-        /**
+    /**
      * @param FormBuilderInterface $builder
      * @param array $options
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('code')
-            ->add('name')
-            ->add('cost')
-            ->add('primeCost')
-            ->add('save', 'submit')
+            ->add('code', null, array('attr' => array('class' => 'form-control')))
+            ->add('name', null, array('attr' => array('class' => 'form-control')))
+            ->add('cost', null, array('attr' => array('class' => 'form-control')))
+            ->add('primeCost', null, array('attr' => array('class' => 'form-control')))
+            ->add('save', 'submit', array('attr' => array("class" => "btn btn-default")))
         ;
     }
     
