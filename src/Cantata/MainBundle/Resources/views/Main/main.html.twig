@@ -5,7 +5,9 @@
         {{ form(form, {'id': 'form'}) }}
         <br>
         {% if addProduct is defined %}
-            kkkk
+            <div ng-app="Cantata" ng-controller="SearchController">
+                <input type="text" class="form-control search" ng-model="srch" ng-keypress="search($event)" placeholder="search code"/>
+            </div>
         {% endif %}
     {% endif %}
     {% if table is defined %}

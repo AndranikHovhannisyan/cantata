@@ -107,3 +107,7 @@ nav {
 .opt {
     float: right;
 }
+.search {
+    width: 200px;
+    margin: auto;
+}
