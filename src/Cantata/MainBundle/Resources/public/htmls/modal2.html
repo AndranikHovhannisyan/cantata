@@ -6,15 +6,15 @@
             <h4 class="modal-title">question</h4>
         </div>
         <div class="modal-body">
-            <div class="mod-cont" ng-init="newO.code = item.code">
+            <div class="mod-cont" ng-init="newO.code = item.code;newO.id = item.id">
                 <label>code</label>
-                <input type="text" ng-model="newO.code" class="form-control" readonly/>
+                <input type="text" ng-model="newO.code" class="form-control" readonly required/>
                 <label>name</label>
-                <input type="text" ng-model="newO.name" class="form-control" placeholder="name"/>
+                <input type="text" ng-model="newO.name" class="form-control" placeholder="name" required/>
                 <label>cost</label>
-                <input type="text" ng-model="newO.cost" class="form-control" placeholder="cost"/>
+                <input type="number" ng-model="newO.cost" class="form-control" placeholder="cost" required/>
                 <label>prime cost</label>    
-                <input type="text" ng-model="newO.p_cost" class="form-control" placeholder="prime cost"/>
+                <input type="number" ng-model="newO.p_cost" class="form-control" placeholder="prime cost" required/>
             </div>
         </div>
         <div class="modal-footer">
