@@ -2,11 +2,17 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
     var api = $resource("/api/:param",{},{
        getList: {method: "GET",isArray: true,cache: false},
        rm: {method: "POST",isArray: false},
-       change: {method: "POST",isArray: false}
+       change: {method: "POST",isArray: false},
+       getProList: {method: "GET",isArray: true,params: {param: "product"}}
     });
     $scope.checkboxes = new Array();
     $scope.getList = true;
+    $scope.proSearch = {};
     
+    api.getProList({},function(d){
+        $log.info(d);
+        $scope.productList = d;
+    });    
     $scope.$watch("getList",function(d){
         api.getList({param: "temp"},function(d){
             $log.info(d);
@@ -43,6 +49,14 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
            $log.info(d);
            $scope.getList = !$scope.getList;
         });
+    };
+    $scope.proFilter = function(singleItem) {
+        $log.info(singleItem);
+        if(!angular.isDefined($scope.proSearch.s))
+            return true;
+        if(singleItem.code.indexOf($scope.proSearch.s) !== -1)
+            return true;
+        return false;
     };
     $scope.reChosen = function(){
         var ar = new Array();

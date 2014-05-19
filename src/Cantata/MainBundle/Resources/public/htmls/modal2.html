@@ -6,15 +6,40 @@
             <h4 class="modal-title">question</h4>
         </div>
         <div class="modal-body">
+            
             <div class="mod-cont" ng-init="newO.code = item.code;newO.id = item.id">
-                <label>code</label>
-                <input type="text" ng-model="newO.code" class="form-control" readonly required/>
-                <label>name</label>
-                <input type="text" ng-model="newO.name" class="form-control" placeholder="name" required/>
-                <label>cost</label>
-                <input type="number" ng-model="newO.cost" class="form-control" placeholder="cost" required/>
-                <label>prime cost</label>    
-                <input type="number" ng-model="newO.p_cost" class="form-control" placeholder="prime cost" required/>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#pro" data-toggle="tab">chose from list</a></li>
+                    <li><a href="#profile" data-toggle="tab">chose from list</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="pro">
+                        <label>code</label>
+                        <input type="text" ng-model="newO.code" class="form-control" readonly required/>
+                        <label>name</label>
+                        <input type="text" ng-model="newO.name" class="form-control" placeholder="name" required/>
+                        <label>cost</label>
+                        <input type="number" ng-model="newO.cost" class="form-control" placeholder="cost" required/>
+                        <label>prime cost</label>    
+                        <input type="number" ng-model="newO.p_cost" class="form-control" placeholder="prime cost" required/>
+                    </div>
+                    <div class="tab-pane" id="profile">
+                        <input type="text" ng-model="proSearch.s" class="form-control" style="margin-top: 5px;" placeholder="search code"/>
+                        <table class="table table3">
+                            <thead>
+                                <tr>
+                                    <th>code</th>
+                                    <th>name</th>
+                                </tr>
+                            </thead>
+                            <tr ng-repeat="p in productList | filter:proFilter">
+                                <td>{{ p.code }}</td>
+                                <td>{{ p.name }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                </div>
             </div>
         </div>
         <div class="modal-footer">

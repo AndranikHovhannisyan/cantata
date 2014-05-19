@@ -25,6 +25,47 @@ class RestTempController extends FOSRestController
         $em = $this->getDoctrine()->getManager();
         return $em->getRepository('CantataMainBundle:Temp')->findAll();
     }
+    
+    /**
+     * @Rest\View
+     */
+    public function getProductAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        return $em->createQuery("SELECT prod.id, prod.name, prod.code 
+                FROM CantataMainBundle:Product prod")
+                ->getResult();
+    }
+    
+    /**
+     * @Rest\View
+     */
+    public function postFindprodAction()
+    {
+        $obj = json_decode($this->getRequest()->getContent());
+        if (isset($obj))
+        {
+            $em = $this->getDoctrine()->getManager();
+            $product = $em->gerRepository('CantataMainBundle:Product')->find($obj->prodId);
+            $tmp = $em->gerRepository('CantataMainBundle:Temp')->find($obj->tempId);
+            
+            $productQuantity = new ProductQuantity();
+            $productQuantity->setProd($product);
+            $productQuantity->setType($tmp->getIsPrixod());
+            $productQuantity->setQuantity($tmp->getQuantity());
+            $productQuantity->setYear($tmp->getYear());
+            $productQuantity->setMonth($tmp->getMonth());
+            $productQuantity->setShop($tmp->getShop());
+            $em->persist($productQuantity);
+            $em->remove($tmp);
+            
+            return array('status' => 'success');
+        }
+        else
+        {
+            return array('status' => 'warning');
+        }
+    }
 
     /**
      * @Rest\View

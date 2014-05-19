@@ -80,7 +80,7 @@ nav {
     overflow-y: auto;
 }
 .mod-cont {
-    width: 200px;
+    width: 400px;
     margin: auto;
     color: black;
 }
@@ -110,4 +110,24 @@ nav {
 .search {
     width: 200px;
     margin: auto;
+}
+.table3 {
+    width: 400px !important;
+    margin-top: 8px;
+}
+.table3 tr:nth-child(odd) td {
+    background-color: rgba(255,255,255,0.5) !important;
+}
+.table3 tr:nth-child(even) td {
+    background-color: rgba(200,200,200,0.5) !important;
+}
+.table3 th,.table3 td {
+    padding: 3px !important;
+    font-size: 12px;
+}
+.table3 tr {
+    background-color: rgb(53, 133, 136);
+}
+.table3 th {
+    background-color: rgba(200,200,200,0.4);
 }
