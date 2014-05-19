@@ -131,3 +131,6 @@ nav {
 .table3 th {
     background-color: rgba(200,200,200,0.4);
 }
+.table3 tr:hover {
+    background-color: rgb(0, 0, 90);
+}
