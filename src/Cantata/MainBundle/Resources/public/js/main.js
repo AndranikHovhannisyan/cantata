@@ -3,7 +3,8 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
        getList: {method: "GET",isArray: true,cache: false},
        rm: {method: "POST",isArray: false},
        change: {method: "POST",isArray: false},
-       getProList: {method: "GET",isArray: true,params: {param: "product"}}
+       getProList: {method: "GET",isArray: true,params: {param: "product"}},
+       sendIds: {method: "POST",isArray:false,params: {param: "findprods"}}
     });
     $scope.checkboxes = new Array();
     $scope.getList = true;
@@ -51,7 +52,6 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
         });
     };
     $scope.proFilter = function(singleItem) {
-        $log.info(singleItem);
         if(!angular.isDefined($scope.proSearch.s))
             return true;
         if(singleItem.code.indexOf($scope.proSearch.s) !== -1)
@@ -72,6 +72,12 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
             $log.info(d);
             $scope.getList = !$scope.getList;
         });
+    };
+    $scope.findProd = function(id1,id2){
+        $log.info(id1,id2);
+        api.sendIds({},{prodId: id2,tempId: id1},null);
+        angular.element(".modal,.modal-backdrop").remove();
+        $scope.getList = !$scope.getList;
     };
     $scope.$watch('checkAll',function(d){
         angular.forEach($scope.items, function(item) {

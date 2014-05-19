@@ -46,8 +46,8 @@ class RestTempController extends FOSRestController
         if (isset($obj))
         {
             $em = $this->getDoctrine()->getManager();
-            $product = $em->gerRepository('CantataMainBundle:Product')->find($obj->prodId);
-            $tmp = $em->gerRepository('CantataMainBundle:Temp')->find($obj->tempId);
+            $product = $em->getRepository('CantataMainBundle:Product')->find($obj->prodId);
+            $tmp = $em->getRepository('CantataMainBundle:Temp')->find($obj->tempId);
             
             $productQuantity = new ProductQuantity();
             $productQuantity->setProd($product);

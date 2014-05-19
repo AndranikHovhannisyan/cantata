@@ -7,7 +7,7 @@
         </div>
         <div class="modal-body">
             
-            <div class="mod-cont" ng-init="newO.code = item.code;newO.id = item.id">
+            <div class="mod-cont" ng-init="newO.code = item.code;newO.id = item.id;proSearch.s = item.code">
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#pro" data-toggle="tab">chose from list</a></li>
                     <li><a href="#profile" data-toggle="tab">chose from list</a></li>
@@ -32,13 +32,12 @@
                                     <th>name</th>
                                 </tr>
                             </thead>
-                            <tr ng-repeat="p in productList | filter:proFilter">
+                            <tr ng-repeat="p in productList | filter:proFilter" ng-dblclick="findProd(item.id,p.id)">
                                 <td>{{ p.code }}</td>
                                 <td>{{ p.name }}</td>
                             </tr>
                         </table>
                     </div>
-                    
                 </div>
             </div>
         </div>
