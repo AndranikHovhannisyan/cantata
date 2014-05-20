@@ -1,4 +1,4 @@
-angular.module("Cantata").controller("MainController",function($scope,$resource,$log){
+angular.module("Cantata").controller("MainController",function($scope,$resource,$log,$timeout){
     var api = $resource("/api/:param",{},{
        getList: {method: "GET",isArray: true,cache: false},
        rm: {method: "POST",isArray: false},
@@ -9,7 +9,7 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
     $scope.checkboxes = new Array();
     $scope.getList = true;
     $scope.proSearch = {};
-    
+
     api.getProList({},function(d){
         $log.info(d);
         $scope.productList = d;

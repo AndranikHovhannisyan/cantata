@@ -24,19 +24,32 @@
                         <input type="number" ng-model="newO.p_cost" class="form-control" placeholder="prime cost" required/>
                     </div>
                     <div class="tab-pane" id="profile">
+                        <script>
+                            $(document).ready(function(){
+                                $(".nav a[href='#profile']").click(function(){
+                                    setTimeout(function(){
+                                        $(".nano").nanoScroller();
+                                    },2000);
+                                });
+                            });
+                        </script>
                         <input type="text" ng-model="proSearch.s" class="form-control" style="margin-top: 5px;" placeholder="search code"/>
-                        <table class="table table3">
-                            <thead>
-                                <tr>
-                                    <th>code</th>
-                                    <th>name</th>
-                                </tr>
-                            </thead>
-                            <tr ng-repeat="p in productList | filter:proFilter" ng-dblclick="findProd(item.id,p.id)">
-                                <td>{{ p.code }}</td>
-                                <td>{{ p.name }}</td>
-                            </tr>
-                        </table>
+                        <div class="nano nano1">
+                            <div class="nano-content"> 
+                                <table class="table table3">
+                                    <thead>
+                                        <tr>
+                                            <th>code</th>
+                                            <th>name</th>
+                                        </tr>
+                                    </thead>
+                                    <tr ng-repeat="p in productList | filter:proFilter" ng-dblclick="findProd(item.id,p.id)">
+                                        <td>{{ p.code }}</td>
+                                        <td>{{ p.name }}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
