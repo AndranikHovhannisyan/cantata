@@ -22,9 +22,10 @@ html,body {
 }
 #form {
     width: 300px;
-    margin: auto;
-    margin-top: 50px;
+    margin-left: 60px;
+    max-height: 310px;
     padding: 10px;
+    padding-top: 20px;
     background-color: rgba(0,0,0,0.4);
     border-radius: 10px;
     -ms-box-shadow: 0 0 4px #aaa;
@@ -137,4 +138,16 @@ nav {
 .nano1 {
     height: 200px !important;
     margin-top: 8px;
+}
+.table4 {
+    border-radius: 10px;
+    width: 500px !important;
+}
+.table4 td:first-child {
+    width: 120px;
+}
+#modify {
+    width: 800px;
+    margin: auto;
+    display: flex;
 }

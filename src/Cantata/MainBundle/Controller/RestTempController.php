@@ -16,7 +16,69 @@ use Cantata\MainBundle\Entity\ProductQuantity;
  */
 class RestTempController extends FOSRestController
 {
-
+/**
+     * @Rest\View
+     */
+    public function postModifyAction()
+    {
+        $obj = json_decode($this->getRequest()->getContent());
+        $em = $this->getDoctrine()->getManager();
+        
+        if($obj->id != -1)
+        {
+            $prod = $em->getRepository('CantataMainBundle:Product')->find($obj->id);
+            if (isset($prod))
+            {
+                if (isset($obj->name) && $obj->name != "" && $obj->name != $prod->getName()) {
+                    $prod->setName($obj->name);
+                }
+                if (isset($obj->code) && $obj->code != "" && $obj->code != $prod->getCode()) {
+                    $prod->setCode($obj->code);
+                }
+                if (isset($obj->cost) && $obj->cost != "" && $obj->cost != $prod->getCost()) {
+                    $prod->setCost($obj->cost);
+                }
+                if (isset($obj->p_cost) && $obj->p_cost != "" && $obj->p_cost != $prod->getPrimeCost()) {
+                    $prod->setPrimeCost($obj->p_cost);
+                }
+            }
+            else
+            {
+                return array('status' => 'warning');
+            }
+        }
+        else
+        {
+            $prod = new Product();
+            $valid = 0;
+            
+            if (isset($obj->name) && $obj->name != "") {
+                $prod->setName($obj->name);
+                $valid++;
+            }
+            if (isset($obj->code) && $obj->code != "") {
+                $prod->setCode($obj->code);
+                $valid++;
+            }
+            if (isset($obj->cost) && $obj->cost != "") {
+                $prod->setCost($obj->cost);
+                $valid++;
+            }
+            if (isset($obj->p_cost) && $obj->p_cost != "") {
+                $prod->setPrimeCost($obj->p_cost);
+                $valid++;
+            }
+            if ($valid != 4)
+            {
+                return array('status' => 'warning');
+            }
+            
+            $em->persist($prod);
+        }
+        $em->flush();
+        return array('status' => 'success');
+    }
+    
     /**
      * @Rest\View
      */

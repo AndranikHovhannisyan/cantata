@@ -1,0 +1,51 @@
+{% extends 'CantataMainBundle::layout.html.twig' %}
+
+{% block edit %}
+    {% verbatim %}
+        <div id="modify" ng-app="Cantata" ng-controller="ModifyController">
+            <div>
+                <table class="table table2 table4">
+                    <thead>
+                        <tr>
+                            <th>code</th>
+                            <th>name</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>
+                            <input type="text" ng-model="modify.code" placeholder="search code" class="form-control"/>
+                        </td>
+                        <td>
+                            <input type="text" ng-model="modify.name" placeholder="search name" class="form-control"/>
+                        </td> 
+                    </tr>
+                    <tr ng-repeat="p in products | filter:modifyFilter">
+                        <td>{{ p.code }}</td>
+                        <td>{{ p.name }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="form">
+                <div>
+                    <label for="cantata_mainbundle_product_code" class="required">Code</label>
+                    <input type="text" id="cantata_mainbundle_product_code" required="required" ng-model="New.code" maxlength="10" class="form-control">
+                </div>
+                <div>
+                    <label for="cantata_mainbundle_product_name" class="required">Name</label>
+                    <input type="text" id="cantata_mainbundle_product_name" ng-model="New.name" required="required" maxlength="50" class="form-control">
+                </div>
+                <div>
+                    <label for="cantata_mainbundle_product_cost" class="required">Cost</label>
+                    <input type="text" id="cantata_mainbundle_product_cost" ng-model="New.cost" required="required" class="form-control">
+                </div>
+                <div>
+                    <label for="cantata_mainbundle_product_primeCost" class="required">Prime cost</label>
+                    <input type="text" id="cantata_mainbundle_product_primeCost" ng-model="New.p_cost" required="required" class="form-control">
+                </div>
+                <div>
+                    <button class="btn btn-default">Save</button>
+                </div>
+            </div>
+        </div>
+    {% endverbatim %}
+{% endblock %}
