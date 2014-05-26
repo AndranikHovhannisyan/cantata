@@ -2,7 +2,7 @@
 
 {% block body %}
     {% if form is defined %}
-        {{ form(form, {'id': 'form'}) }}
+        {{ form(form, {'id': 'form', 'attr' : {'class': 'form-style'}}) }}
         <br>
         {% if addProduct is defined %}
             <div ng-app="Cantata" ng-controller="SearchController">

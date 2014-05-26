@@ -35,10 +35,14 @@ class RestTempController extends FOSRestController
                 if (isset($obj->code) && $obj->code != "" && $obj->code != $prod->getCode()) {
                     $prod->setCode($obj->code);
                 }
-                if (isset($obj->cost) && $obj->cost != "" && $obj->cost != $prod->getCost()) {
+                if (isset($obj->cost) && $obj->cost != "" && 
+                        $obj->cost != $prod->getCost() && is_numeric($obj->cost)) {
+                    
                     $prod->setCost($obj->cost);
                 }
-                if (isset($obj->p_cost) && $obj->p_cost != "" && $obj->p_cost != $prod->getPrimeCost()) {
+                if (isset($obj->p_cost) && $obj->p_cost != "" && 
+                        $obj->p_cost != $prod->getPrimeCost() && is_numeric($obj->p_cost)) {
+                    
                     $prod->setPrimeCost($obj->p_cost);
                 }
             }
@@ -60,11 +64,11 @@ class RestTempController extends FOSRestController
                 $prod->setCode($obj->code);
                 $valid++;
             }
-            if (isset($obj->cost) && $obj->cost != "") {
+            if (isset($obj->cost) && $obj->cost != "" && is_numeric($obj->cost)) {
                 $prod->setCost($obj->cost);
                 $valid++;
             }
-            if (isset($obj->p_cost) && $obj->p_cost != "") {
+            if (isset($obj->p_cost) && $obj->p_cost != "" && is_numeric($obj->p_cost)) {
                 $prod->setPrimeCost($obj->p_cost);
                 $valid++;
             }
@@ -94,9 +98,26 @@ class RestTempController extends FOSRestController
     public function getProductAction()
     {
         $em = $this->getDoctrine()->getManager();
-        return $em->createQuery("SELECT prod.id, prod.name, prod.code 
-                FROM CantataMainBundle:Product prod")
+        return $em->createQuery("SELECT prod 
+                FROM CantataMainBundle:Product prod ORDER BY prod.id DESC")
                 ->getResult();
+    }
+    
+    /**
+     * @Rest\View
+     */
+    public function deleteProductAction($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $prod = $em->getRepository('CantataMainBundle:Product')->find($id);
+        if ($prod)
+        {
+            $em->remove($prod);
+            $em->flush();
+            return array('status' => 'success');
+        }
+        
+        return array('status' => 'warning');
     }
     
     /**

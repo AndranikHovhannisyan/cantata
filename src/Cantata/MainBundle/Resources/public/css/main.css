@@ -23,7 +23,7 @@ html,body {
 #form {
     width: 300px;
     margin-left: 60px;
-    max-height: 310px;
+    max-height: 320px;
     padding: 10px;
     padding-top: 20px;
     background-color: rgba(0,0,0,0.4);
@@ -141,7 +141,11 @@ nav {
 }
 .table4 {
     border-radius: 10px;
+    margin-bottom: 0px;
     width: 500px !important;
+}
+.table4 tr:hover {
+    background-color: rgb(99, 114, 122);
 }
 .table4 td:first-child {
     width: 120px;
@@ -150,4 +154,20 @@ nav {
     width: 800px;
     margin: auto;
     display: flex;
+}
+.save-button {
+    margin-top: 4px;
+}
+.nano-table {
+    height: 400px !important;
+    width: 500px !important;
+}
+.item-remove {
+    cursor: pointer;
+    top: 0px !important;
+    display: table-cell !important;
+}
+.form-style {
+    margin: auto;
+    margin-left: auto !important;
 }

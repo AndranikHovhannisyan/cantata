@@ -19,11 +19,24 @@
                             <input type="text" ng-model="modify.name" placeholder="search name" class="form-control"/>
                         </td> 
                     </tr>
-                    <tr ng-repeat="p in products | filter:modifyFilter">
-                        <td>{{ p.code }}</td>
-                        <td>{{ p.name }}</td>
-                    </tr>
                 </table>
+                <div class="nano nano-table">
+                    <div class="nano-content">
+                        <table class="table table2 table4">
+                            <tr ng-repeat="p in products | filter:modifyFilter" ng-click="edit(p)">
+                                <td>{{ p.code }}</td>
+                                <td>{{ p.name }}</td>
+                                <td class="glyphicon glyphicon-remove item-remove" 
+                                    title="remove"
+                                    data-animation="am-fade-and-slide-top" 
+                                    data-template="/bundles/cantatamain/htmls/deleteItem.html"
+                                    class="glyphicon glyphicon-certificate"
+                                    title="change"
+                                    bs-modal></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
             <div id="form">
                 <div>
@@ -43,7 +56,7 @@
                     <input type="text" id="cantata_mainbundle_product_primeCost" ng-model="New.p_cost" required="required" class="form-control">
                 </div>
                 <div>
-                    <button class="btn btn-default">Save</button>
+                    <button class="btn btn-default save-button" ng-click="save()">Save</button>
                 </div>
             </div>
         </div>
