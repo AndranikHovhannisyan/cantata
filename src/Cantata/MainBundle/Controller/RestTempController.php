@@ -141,6 +141,7 @@ class RestTempController extends FOSRestController
             $productQuantity->setShop($tmp->getShop());
             $em->persist($productQuantity);
             $em->remove($tmp);
+            $em->flush();
             
             return array('status' => 'success');
         }
