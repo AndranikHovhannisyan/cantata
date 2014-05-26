@@ -9,11 +9,10 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
     $scope.checkboxes = new Array();
     $scope.getList = true;
     $scope.proSearch = {};
-
     api.getProList({},function(d){
         $log.info(d);
         $scope.productList = d;
-    });    
+    });
     $scope.$watch("getList",function(d){
         api.getList({param: "temp"},function(d){
             $log.info(d);
@@ -75,9 +74,10 @@ angular.module("Cantata").controller("MainController",function($scope,$resource,
     };
     $scope.findProd = function(id1,id2){
         $log.info(id1,id2);
-        api.sendIds({},{prodId: id2,tempId: id1},null);
+        api.sendIds({},{prodId: id2,tempId: id1},function(){
+            $scope.getList = !$scope.getList;
+        });
         angular.element(".modal,.modal-backdrop").remove();
-        $scope.getList = !$scope.getList;
     };
     $scope.$watch('checkAll',function(d){
         angular.forEach($scope.items, function(item) {
