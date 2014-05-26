@@ -171,3 +171,6 @@ nav {
     margin: auto;
     margin-left: auto !important;
 }
+#form_date>select:nth-child(2),#form_from>select:nth-child(2),#form_to>select:nth-child(2) {
+    display: none;
+}
