@@ -1,3 +1,0 @@
-cantata_main_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: CantataMainBundle:Default:index }

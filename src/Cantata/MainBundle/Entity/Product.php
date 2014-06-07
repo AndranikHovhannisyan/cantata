@@ -20,22 +20,22 @@ class Product
     protected $id;
 
     /**
-     * @ORM\Column(name="code", type="string", length=10)
+     * @ORM\Column(name="code", type="string", length=20, nullable=false)
      */
     protected $code;
 
     /**
-     * @ORM\Column(name="name", type="string", length=50)
+     * @ORM\Column(name="name", type="string", length=50, nullable=false)
      */
     protected $name;
 
     /**
-     * @ORM\Column(name="cost", type="float")
+     * @ORM\Column(name="cost", type="float", nullable=false)
      */
     protected $cost;
 
     /**
-     * @ORM\Column(name="prime_cost", type="float")
+     * @ORM\Column(name="prime_cost", type="float", nullable=false)
      */
     protected $primeCost;
 
