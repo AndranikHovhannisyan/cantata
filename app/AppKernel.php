@@ -21,6 +21,10 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle($this),
             //new APY\DataGridBundle\APYDataGridBundle(),
             //"apy/datagrid-bundle": "dev-master"
+            new Sonata\AdminBundle\SonataAdminBundle(),
+            new Sonata\CoreBundle\SonataCoreBundle(),
+            new Sonata\BlockBundle\SonataBlockBundle(),
+            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
