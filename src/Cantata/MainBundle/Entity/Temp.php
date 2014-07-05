@@ -21,7 +21,7 @@ class Temp
     protected $id;
 
     /**
-     * @ORM\Column(name="code", type="string", length=10)
+     * @ORM\Column(name="code", type="string", length=20)
      */
     protected $code;
 
@@ -59,7 +59,12 @@ class Temp
      * @ORM\Column(name="type", type="integer")
      */
     protected $type;
-    
+
+    public function __toString()
+    {
+        return $this->code;
+    }
+
     /**
      * Get id
      *

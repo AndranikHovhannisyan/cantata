@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <!-- product -->
+        <service id="cantata.main.admin.product" class="Cantata\MainBundle\Admin\ProductAdmin">
+            <tag name="sonata.admin" manager_type="orm" group="Entities" label="Ապրանքներ"/>
+            <argument/>
+            <argument>Cantata\MainBundle\Entity\Product</argument>
+            <argument>NULL</argument>
+        </service>
+        <!-- product quantity -->
+        <service id="cantata.main.admin.product.quantity" class="Cantata\MainBundle\Admin\ProductQuantityAdmin">
+            <tag name="sonata.admin" manager_type="orm" group="Entities" label="Ապրանքների քանակները"/>
+            <argument/>
+            <argument>Cantata\MainBundle\Entity\ProductQuantity</argument>
+            <argument>NULL</argument>
+        </service>
+        <!-- temp -->
+        <service id="cantata.main.admin.temp" class="Cantata\MainBundle\Admin\TempAdmin">
+            <tag name="sonata.admin" manager_type="orm" group="Entities" label="Անհամապատասխանությունները"/>
+            <argument/>
+            <argument>Cantata\MainBundle\Entity\Temp</argument>
+            <argument>NULL</argument>
+        </service>
+    </services>
+</container>

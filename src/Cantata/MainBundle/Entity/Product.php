@@ -39,6 +39,12 @@ class Product
      */
     protected $primeCost;
 
+
+    public function __toString()
+    {
+        return $this->code . '_' . $this->name;
+    }
+
     /**
      * Get id
      *

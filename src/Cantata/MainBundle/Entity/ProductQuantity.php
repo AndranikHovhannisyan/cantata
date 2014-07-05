@@ -52,6 +52,12 @@ class ProductQuantity
      */
     protected $type;
 
+
+    public function __toString()
+    {
+        return $this->prod->__toString();
+    }
+
     /**
      * Get id
      *
